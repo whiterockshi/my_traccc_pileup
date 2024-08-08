@@ -5,7 +5,7 @@
 # Mozilla Public License Version 2.0
 
 # Simulation with the default metadata and json inputs
-traccc_add_executable(simulate "simulate.cpp"
+traccc_add_executable(simulate "pu_simulate.cpp"
     LINK_LIBRARIES vecmem::core traccc::io traccc::core
     traccc::options traccc::simulation detray::core detray::utils covfie::core 
     Boost::filesystem)    
